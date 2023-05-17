@@ -5,7 +5,7 @@ from pydantic import BaseModel
 from langchain import LLMChain
 from langchain.agents import AgentExecutor, LLMSingleActionAgent
 from langchain.chat_models import ChatOpenAI
-from langchain.callbacks import CallbackManager
+from langchain.callbacks.manager import CallbackManager
 
 from yeagerai.toolkit import YeagerAIToolkit
 from yeagerai.memory import YeagerAIContext
